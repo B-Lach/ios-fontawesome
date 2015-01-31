@@ -53,7 +53,9 @@
             /* Font Awesome ver 4.10 */
             @"\uf1b9", @"\uf19c", @"\uf1b4", @"\uf1b5", @"\uf1e2", @"\uf1ad", @"\uf1ba", @"\uf1b9", @"\uf1ae", @"\uf1ce", @"\uf1db", @"\uf1cb", @"\uf1b2", @"\uf1b3", @"\uf1c0", @"\uf1a5", @"\uf1bd", @"\uf1a6", @"\uf1a9", @"\uf1d1", @"\uf199", @"\uf1ac", @"\uf1c6", @"\uf1c7", @"\uf1c9", @"\uf1c3", @"\uf1c5", @"\uf1c8", @"\uf1c1", @"\uf1c5", @"\uf1c5", @"\uf1c4", @"\uf1c7", @"\uf1c8", @"\uf1c2", @"\uf1c6", @"\uf1d1", @"\uf1d3", @"\uf1d2", @"\uf1a0", @"\uf19d", @"\uf1d4", @"\uf1dc", @"\uf1da", @"\uf19c", @"\uf1aa", @"\uf1cc", @"\uf1ab", @"\uf1cd", @"\uf1cd", @"\uf1cd", @"\uf19d", @"\uf19b", @"\uf1d8", @"\uf1d9", @"\uf1dd", @"\uf1b0", @"\uf1a7", @"\uf1a8", @"\uf1a7", @"\uf1d6", @"\uf1d0", @"\uf1d0", @"\uf1b8", @"\uf1a1", @"\uf1a2", @"\uf1d8", @"\uf1d9", @"\uf1e0", @"\uf1e1", @"\uf198", @"\uf1de", @"\uf1be", @"\uf197", @"\uf1b1", @"\uf1bc", @"\uf1b6", @"\uf1b7", @"\uf1a4", @"\uf1a3", @"\uf1cd", @"\uf1ba", @"\uf1d5", @"\uf1bb", @"\uf19c", @"\uf1ca", @"\uf1d7", @"\uf1d7", @"\uf19a", @"\uf19e",
             /* Font Awesome ver 4.20 */
-            @"\uf209", @"\uf1fe", @"\uf1fa", @"\uf1f6", @"\uf1f7", @"\uf206", @"\uf1e5", @"\uf1fd", @"\uf207", @"\uf1ec", @"\uf20a", @"\uf1f3", @"\uf1f2", @"\uf1f1", @"\uf1f4", @"\uf1f5", @"\uf1f0", @"\uf1f9", @"\uf1fb", @"\uf1e3", @"\uf1ee", @"\uf20b", @"\uf208", @"\uf202", @"\uf203", @"\uf201", @"\uf20c", @"\uf1ea", @"\uf1fc", @"\uf1ed", @"\uf200", @"\uf1e6", @"\uf20b", @"\uf20b", @"\uf1e7", @"\uf1e3", @"\uf204", @"\uf205", @"\uf1f8", @"\uf1e4", @"\uf1e8", @"\uf1eb", @"\uf1e9"];
+            @"\uf209", @"\uf1fe", @"\uf1fa", @"\uf1f6", @"\uf1f7", @"\uf206", @"\uf1e5", @"\uf1fd", @"\uf207", @"\uf1ec", @"\uf20a", @"\uf1f3", @"\uf1f2", @"\uf1f1", @"\uf1f4", @"\uf1f5", @"\uf1f0", @"\uf1f9", @"\uf1fb", @"\uf1e3", @"\uf1ee", @"\uf20b", @"\uf208", @"\uf202", @"\uf203", @"\uf201", @"\uf20c", @"\uf1ea", @"\uf1fc", @"\uf1ed", @"\uf200", @"\uf1e6", @"\uf20b", @"\uf20b", @"\uf1e7", @"\uf1e3", @"\uf204", @"\uf205", @"\uf1f8", @"\uf1e4", @"\uf1e8", @"\uf1eb", @"\uf1e9",
+            /* Font Awesome ver 4.30 */
+            @"\uf236", @"\uf20d", @"\uf218", @"\uf217", @"\uf20e", @"\uf210", @"\uf219", @"\uf230", @"\uf211", @"\uf21e", @"\uf236", @"\uf212", @"\uf222", @"\uf227", @"\uf229", @"\uf22b", @"\uf22a", @"\uf23a", @"\uf223", @"\uf21c", @"\uf22c", @"\uf231", @"\uf213", @"\uf233", @"\uf21a", @"\uf214", @"\uf215", @"\uf216", @"\uf21d", @"\uf239", @"\uf238", @"\uf224", @"\uf225", @"\uf234", @"\uf21b", @"\uf235", @"\uf221", @"\uf226", @"\uf228", @"\uf237", @"\uf232"];
 
     });
     
@@ -576,7 +578,50 @@
         tmp[@"fa-wifi"]               = @(FAwifi);
         tmp[@"fa-yelp"]               = @(FAyelp);
         
-		enumDictionary = tmp;
+        /* FontAwesome ver 4.3.0 */
+        tmp[@"fa-bed"]                = @(FAbed);
+        tmp[@"fa-buysellads"]         = @(FAbuysellads);
+        tmp[@"fa-cart-arrow-down"]    = @(FAcartArrowDown);
+        tmp[@"fa-cart-plus"]          = @(FAcartPlus);
+        tmp[@"fa-connectdevelop"]     = @(FAconnectdevelop);
+        tmp[@"fa-dashcube"]           = @(FAdashcube);
+        tmp[@"fa-diamond"]            = @(FAdiamond);
+        tmp[@"fa-facebook-official"]  = @(FAfacebookOfficial);
+        tmp[@"fa-forumbee"]           = @(FAforumbee);
+        tmp[@"fa-heartbeat"]          = @(FAheartbeat);
+        tmp[@"fa-hotel"]              = @(FAhotel);
+        tmp[@"fa-leanpub"]            = @(FAleanpub);
+        tmp[@"fa-mars"]               = @(FAmars);
+        tmp[@"fa-mars-double"]        = @(FAmarsDouble);
+        tmp[@"fa-mars-stroke"]        = @(FAmarsStroke);
+        tmp[@"fa-mars-stoke-h"]       = @(FAmarsStrokeH);
+        tmp[@"fa-mars-stroke-v"]      = @(FAmarsStrokeV);
+        tmp[@"fa-medium"]             = @(FAmedium);
+        tmp[@"fa-mercury"]            = @(FAmercury);
+        tmp[@"fa-motorcycle"]         = @(FAmotorcycle);
+        tmp[@"fa-neuter"]             = @(FAneuter);
+        tmp[@"fa-pinterest-p"]        = @(FApinterestP);
+        tmp[@"fa-sellsy"]             = @(FAsellsy);
+        tmp[@"fa-server"]             = @(FAserver);
+        tmp[@"fa-ship"]               = @(FAship);
+        tmp[@"fa-shirtsinbulk"]       = @(FAshirtsinbulk);
+        tmp[@"fa-simplybuilt"]        = @(FAsimplybuilt);
+        tmp[@"fa-skyatlas"]           = @(FAskyatlas);
+        tmp[@"fa-street-view"]        = @(FAstreetView);
+        tmp[@"fa-subway"]             = @(FAsubway);
+        tmp[@"fa-train"]              = @(FAtrain);
+        tmp[@"fa-transgender"]        = @(FAtransgender);
+        tmp[@"fa-transgender-alt"]    = @(FAtransgenderAlt);
+        tmp[@"fa-user-plus"]          = @(FAuserPlus);
+        tmp[@"fa-user-secret"]        = @(FAuserSecret);
+        tmp[@"fa-user-times"]         = @(FAuserTimes);
+        tmp[@"fa-venus"]              = @(FAvenus);
+        tmp[@"fa-venus-double"]       = @(FAvenusDouble);
+        tmp[@"fa-venus-mars"]         = @(FAvenusMars);
+        tmp[@"fa-viacoin"]            = @(FAviacoin);
+        tmp[@"fa-whatsapp"]           = @(FAwhatsapp);
+		
+        enumDictionary = tmp;
 	});
     
     return enumDictionary;

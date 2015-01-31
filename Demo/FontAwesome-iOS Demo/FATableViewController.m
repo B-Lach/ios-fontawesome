@@ -684,7 +684,50 @@
         tmp[@"fa-twitch"]             = @(FAtwitch);
         tmp[@"fa-wifi"]               = @(FAwifi);
         tmp[@"fa-yelp"]               = @(FAyelp);
-
+        
+        /* FontAwesome ver 4.3.0 */
+        tmp[@"fa-bed"]                = @(FAbed);
+        tmp[@"fa-buysellads"]         = @(FAbuysellads);
+        tmp[@"fa-cart-arrow-down"]    = @(FAcartArrowDown);
+        tmp[@"fa-cart-plus"]          = @(FAcartPlus);
+        tmp[@"fa-connectdevelop"]     = @(FAconnectdevelop);
+        tmp[@"fa-dashcube"]           = @(FAdashcube);
+        tmp[@"fa-diamond"]            = @(FAdiamond);
+        tmp[@"fa-facebook-official"]  = @(FAfacebookOfficial);
+        tmp[@"fa-forumbee"]           = @(FAforumbee);
+        tmp[@"fa-heartbeat"]          = @(FAheartbeat);
+        tmp[@"fa-hotel"]              = @(FAhotel);
+        tmp[@"fa-leanpub"]            = @(FAleanpub);
+        tmp[@"fa-mars"]               = @(FAmars);
+        tmp[@"fa-mars-double"]        = @(FAmarsDouble);
+        tmp[@"fa-mars-stroke"]        = @(FAmarsStroke);
+        tmp[@"fa-mars-stoke-h"]       = @(FAmarsStrokeH);
+        tmp[@"fa-mars-stroke-v"]      = @(FAmarsStrokeV);
+        tmp[@"fa-medium"]             = @(FAmedium);
+        tmp[@"fa-mercury"]            = @(FAmercury);
+        tmp[@"fa-motorcycle"]         = @(FAmotorcycle);
+        tmp[@"fa-neuter"]             = @(FAneuter);
+        tmp[@"fa-pinterest-p"]        = @(FApinterestP);
+        tmp[@"fa-sellsy"]             = @(FAsellsy);
+        tmp[@"fa-server"]             = @(FAserver);
+        tmp[@"fa-ship"]               = @(FAship);
+        tmp[@"fa-shirtsinbulk"]       = @(FAshirtsinbulk);
+        tmp[@"fa-simplybuilt"]        = @(FAsimplybuilt);
+        tmp[@"fa-skyatlas"]           = @(FAskyatlas);
+        tmp[@"fa-street-view"]        = @(FAstreetView);
+        tmp[@"fa-subway"]             = @(FAsubway);
+        tmp[@"fa-train"]              = @(FAtrain);
+        tmp[@"fa-transgender"]        = @(FAtransgender);
+        tmp[@"fa-transgender-alt"]    = @(FAtransgenderAlt);
+        tmp[@"fa-user-plus"]          = @(FAuserPlus);
+        tmp[@"fa-user-secret"]        = @(FAuserSecret);
+        tmp[@"fa-user-times"]         = @(FAuserTimes);
+        tmp[@"fa-venus"]              = @(FAvenus);
+        tmp[@"fa-venus-double"]       = @(FAvenusDouble);
+        tmp[@"fa-venus-mars"]         = @(FAvenusMars);
+        tmp[@"fa-viacoin"]            = @(FAviacoin);
+        tmp[@"fa-whatsapp"]           = @(FAwhatsapp);
+        
         icons = [NSDictionary dictionaryWithDictionary:tmp];
 	}
     return icons;
